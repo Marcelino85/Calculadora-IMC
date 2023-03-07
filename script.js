@@ -6,12 +6,12 @@ const altura = document.getElementById('altura')
 const resultado = document.getElementById('resultado')
 
 const getText = (imc) => {
-    if(imc>40) return 'Obesidade grau III'
-    if(imc>35) return 'Obesidade grau II'
-    if(imc>30) return 'Obesidade grau I'
-    if(imc>25) return 'Levemente acima do peso'
+    if(imc>40) return 'Obesidade grau III!'
+    if(imc>35) return 'Obesidade grau II!'
+    if(imc>30) return 'Obesidade grau I!'
+    if(imc>25) return 'Levemente acima do peso.'
     if(imc>18.5) return 'peso ideal!'
-    return 'Abaixo do peso'
+    return 'Abaixo do peso!'
 }
 
 
